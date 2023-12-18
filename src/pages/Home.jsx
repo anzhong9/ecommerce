@@ -1,6 +1,9 @@
 import React from 'react';
 import Slider from '../assets/tools/Slider';
 import Celeb_home from './Celeb_home';
+import Footer from './Footer';
+
+
 export default function Home() {
   return (
     <>
@@ -19,7 +22,7 @@ export default function Home() {
       <div className='Collections h-[550px]'>
       <div className='w-full ' >
         <div className='flex w-[1220px] '>
-          <div className='flex 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Our Collections</div> <div className=' flex-grow flex mr-72 justify-end' id=' slider'>slider here</div>
+          <div className='flex 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Our Collections</div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="src\assets\buttons\Button - previous slide button.png" alt="" /><img src="src\assets\buttons\Button - next slide button.png" alt="" /></div>
           {/* <Slider/> */}
         </div>
             </div>
@@ -42,7 +45,7 @@ export default function Home() {
       </div>
 
     <Celeb_home/>
-      
+     <Footer/> 
     </>
   );
 }

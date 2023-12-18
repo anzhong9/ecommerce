@@ -11,7 +11,7 @@ export default function Celeb_home() {
       <div className='Celebrities mt-5 h-[420px]'>
       <div className='w-full ' >
         <div className='flex '>
-        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Celebrities Love <span className='px-1 font-thin'>ALYN</span></div> <div className=' flex-grow flex mr-72 justify-end' id=' slider'>slider here</div>
+        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Celebrities Love <span className='px-1 font-thin'>ALYN</span></div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="src\assets\buttons\Button - previous slide button.png" alt="" /><img src="src\assets\buttons\Button - next slide button.png" alt="" /></div>
 
           {/* <Slider/> */}
         </div>
@@ -31,7 +31,7 @@ export default function Celeb_home() {
             <div className="h-[699px] w-[700]"><img className="h-[inherit]" src='src\assets\477_amelia-medium.jpg.png'></img></div>
             <div className="ml-16 text-tgrey">
                 <div className="w-[550px] mt-20 leading-none text-[80px]">Elevate Your Elegance:</div>
-                <div className="w-[600px] mt-10 leading-none text-[70px]">Discover Exquisite Craftmanship</div>
+                <div className="w-[600px] mt-10 leading-none text-[70px]">Discover Exquisite <div className="italic">Craftmanship</div></div>
                 <div className="w-[350px] mt-20 leading-none text-xs">Discover Exquisite Craftsmanship in Our Luxurious Jewelry Collection</div>
 
             </div>
@@ -39,7 +39,7 @@ export default function Celeb_home() {
          <div className="h-[330px]">
          <div className='w-full ' >
         <div className='flex '>
-        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >What Our Customers Have To Say </div> <div className=' flex-grow flex mr-72 justify-end' id=' slider'>slider here</div>
+        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >What Our Customers Have To Say </div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="src\assets\buttons\Button - previous slide button.png" alt="" /><img src="src\assets\buttons\Button - next slide button.png" alt="" /></div>
 
           {/* <Slider/> */}
         </div>
@@ -72,7 +72,7 @@ expectations. Now that I own these, I don't think Icould ever go back" />
     <div className='insp mt-5 w-full  h-[480px]'>
       <div className='w-full ' >
         <div className='flex '>
-        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Get Inspired</div> <div className=' flex-grow flex mr-72 justify-end' id=' slider'>slider here</div>
+        <div className='flex italic 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Get Inspired</div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="src\assets\buttons\Button - previous slide button.png" alt="" /><img src="src\assets\buttons\Button - next slide button.png" alt="" /></div>
 
           {/* <Slider/> */}
         </div>
