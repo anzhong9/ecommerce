@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <div className='h-[680px] relative flex flex-row  w-full mb-8'>
-      <div className=' 2xl:w-[1250px]  lg:w-[899px] h-[680px] relative'> <img className='h-[680px] z-10' src='src\assets\Ray_Ono_Grace_6.png'/>
+      <div className=' 2xl:w-[1250px]  lg:w-[899px] h-[680px] relative'> <img className='h-[680px] z-10' src='public\Ray_Ono_Grace_6.png'/>
         <div className='absolute z-10 left-14 xl:w-[500px] lg:w-[403px] top-[330px]'>
           <div className=' bg-white rounded-2xl w-fit p-2 text-xs mb-3 items-center'>HOLIDAY SEASON</div>
           <div className=' italic font-thin text-white leading-[55px] mb-2 2xl:text-6xl lg:text-[51px]'>Make a Luxurious Statement.</div>
@@ -17,21 +17,21 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='absolute right-0 lg:w-[605px] mr-0 h-[680px]'> <img className='h-[680px] w-full mr-0 ' src='src\assets\IMG_4679.png'/></div>
+      <div className='absolute right-0 lg:w-[605px] mr-0 h-[680px]'> <img className='h-[680px] w-full mr-0 ' src='public\IMG_4679.png'/></div>
       </div>
       <div className='Collections h-[550px]'>
       <div className='w-full ' >
         <div className='flex w-[1220px] '>
-          <div className='flex 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Our Collections</div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="src\assets\buttons\Button - previous slide button.png" alt="" /><img src="src\assets\buttons\Button - next slide button.png" alt="" /></div>
+          <div className='flex 2xl:ml-[212px] justify-start text-3xl ml-[160px]' >Our Collections</div> <div className=' flex-grow gap-2 h-6 flex mr-72 justify-end' id=' slider'><img src="public\buttons\Button - previous slide button.png" alt="" /><img src="public\buttons\Button - next slide button.png" alt="" /></div>
           {/* <Slider/> */}
         </div>
             </div>
             <div className='overflow-x-scroll mx-auto w-11/12'>
             <div className='flex overflow-hidden mt-4 mx-32 flex-row gap-12'>
-          <figure className='[h-490px]'><img src='src\assets\Rectangle 5.png' alt='Earrings' className='h-[430px] mb-4'/><figcaption>Earrings</figcaption></figure>
-          <figure className='[h-490px]'><img src='src\assets\Rectangle 1.png' alt='Necklaces' className='h-[430px] mb-4'/><figcaption>Necklaces</figcaption></figure>
-          <figure className='[h-490px]'><img src='src\assets\Rectangle 3.png' alt='bracelets' className='h-[430px] mb-4'/><figcaption>Bracelets</figcaption></figure>
-          <figure className='[h-490px]'><img src='src\assets\Rectangle 4.png' alt='Rings' className='h-[430px] mb-4'/><figcaption>Rings</figcaption></figure>
+          <figure className='[h-490px]'><img src='public\Rectangle 5.png' alt='Earrings' className='h-[430px] mb-4'/><figcaption>Earrings</figcaption></figure>
+          <figure className='[h-490px]'><img src='public\Rectangle 1.png' alt='Necklaces' className='h-[430px] mb-4'/><figcaption>Necklaces</figcaption></figure>
+          <figure className='[h-490px]'><img src='public\Rectangle 3.png' alt='bracelets' className='h-[430px] mb-4'/><figcaption>Bracelets</figcaption></figure>
+          <figure className='[h-490px]'><img src='public\Rectangle 4.png' alt='Rings' className='h-[430px] mb-4'/><figcaption>Rings</figcaption></figure>
           </div>
           </div>
           </div> {/* this is the top 2 combined  */}
