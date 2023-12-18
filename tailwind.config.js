@@ -13,6 +13,10 @@ export default {
       'secondary': '#1F1F1F',
       'tgrey': '#33302D',
       'whitey':'#F8F3ED;',
+      'txwhite':'#FCF9F7',
+      'btn1':'#0F1428',
+      'whitey2':'#F5F6FB',
+
     },
     
     
