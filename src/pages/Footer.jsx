@@ -51,7 +51,7 @@ export default function Footer(){
     </div>
     <div className="flex  relative flex-grow"><div className="absolute items-center gap-1 flex text-xs align-baseline right-36" >
         4.9/5
-        <img className="h-6 mx-3" src="public\icons\tvector.svg" alt="" />
+        <img className="h-6 mx-3" src="/icons\tvector.svg" alt="" />
         BASED ON 500+ REVIEWS
         </div></div>    
 
