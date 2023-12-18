@@ -4,17 +4,17 @@ import Celeb_home from './Celeb_home';
 export default function Home() {
   return (
     <>
-    <div className='h-[680px] static grid grid-cols-2  w-full mb-8'>
-      <div className=' 2xl:w-[1250px] xl:w-[1000px] lg:w-[765px] h-[680px] relative'> <img className='h-[680px] z-10' src='src\assets\Ray_Ono_Grace_6.png'/>
+    <div className='h-[680px] relative flex flex-row  w-full mb-8'>
+      <div className=' 2xl:w-[1250px]  lg:w-[899px] h-[680px] relative'> <img className='h-[680px] z-10' src='src\assets\Ray_Ono_Grace_6.png'/>
         <div className='absolute z-10 left-14 xl:w-[500px] lg:w-[403px] top-[330px]'>
           <div className=' bg-white rounded-2xl w-fit p-2 text-xs mb-3 items-center'>HOLIDAY SEASON</div>
           <div className=' italic font-thin text-white leading-[55px] mb-2 2xl:text-6xl lg:text-[51px]'>Make a Luxurious Statement.</div>
           <div className=' text-white font-thin text-[20px] leading-[30px] mb-5 2xl:text-[30px] lg:text-[25px]'>+ Get two Free Luxury Gift</div>
-          <div className=' items-center flex justify-center bg-btn1 text-txwhite w-fit py-[15px] px-5 text-xs'>Shop Now</div>
+          <div className=' hover:bg-blue-950 hover:text-yellow-100 hover:scale-105 transition items-center flex justify-center bg-btn1 text-txwhite w-fit py-[15px] px-5 text-xs'>Shop Now</div>
         </div>
       </div>
 
-      <div className=' 2xl:w-[740px] xl:w-[650px] z-0 lg:w-[605px] mr-0 h-[680px]'> <img className='h-[680px] w-full mr-0 ' src='src\assets\IMG_4679.png'/></div>
+      <div className='absolute right-0 lg:w-[605px] mr-0 h-[680px]'> <img className='h-[680px] w-full mr-0 ' src='src\assets\IMG_4679.png'/></div>
       </div>
       <div className='Collections h-[550px]'>
       <div className='w-full ' >
